@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="AcmeFlightService"
+  targetNamespace="urn:permit.gov.org:structuralservice"
+  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="urn:permit.gov.org:structuralservice"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema">
+      <import namespace="urn:permit.gov.org:structuralservice"
+        schemaLocation="PermitStructuralService_schema1.xsd" />
+    </schema>
+  </wsdl:types>
+  <wsdl:message name="submitPermitRequest">
+    <wsdl:part name="parameters" element="tns:PermitRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="submitPermitRequestResponse">
+    <wsdl:part name="parameters" element="tns:PermitRequestResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPermitRequestStatus">
+    <wsdl:part name="parameters" element="tns:PermitStatusRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPermitRequestStatusResponse">
+    <wsdl:part name="parameters" element="tns:PermitStatusResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="rescindPermit">
+    <wsdl:part name="parameters" element="tns:PermitRecindRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="rescindPermitResponse">
+    <wsdl:part name="parameters" element="tns:PermitRecindResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="PermitStructuralServiceInterface">
+    <wsdl:operation name="submitPermitRequest">
+      <wsdl:input name="submitPermitRequest" message="tns:submitPermitRequest">
+      </wsdl:input>
+      <wsdl:output name="submitPermitRequestResponse" message="tns:submitPermitRequestResponse">
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPermitRequestStatus">
+      <wsdl:input name="getPermitRequestStatus" message="tns:getPermitRequestStatus">
+      </wsdl:input>
+      <wsdl:output name="getPermitRequestStatusResponse" message="tns:getPermitRequestStatusResponse">
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rescindPermit">
+      <wsdl:input name="rescindPermit" message="tns:rescindPermit">
+      </wsdl:input>
+      <wsdl:output name="rescindPermitResponse" message="tns:rescindPermitResponse">
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PermitStructuralServiceSoapBinding" type="tns:PermitStructuralServiceInterface">
+    <soap:binding style="document"
+      transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="submitPermitRequest">
+      <soap:operation
+        soapAction="urn:permit.gov.org:structuralservice:submitPermitRequest"
+        style="document" />
+      <wsdl:input name="submitPermitRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="submitPermitRequestResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPermitRequestStatus">
+      <soap:operation soapAction="urn:permit.gov.org:structuralservice:getPermitRequestStatus" style="document" />
+      <wsdl:input name="getPermitRequestStatus">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getPermitRequestStatusResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rescindPermit">
+      <soap:operation soapAction="urn:permit.gov.org:structuralservice:rescindPermit" style="document" />
+      <wsdl:input name="rescindPermit">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="rescindPermitResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PermitStructuralService">
+    <wsdl:port name="PermitStructuralServiceInterfaceImplPort" binding="tns:PermitStructuralServiceSoapBinding">
+      <soap:address location="http://localhost:8080/PermitStructuralServiceInterfaceImplPort" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

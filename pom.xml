@@ -8,6 +8,7 @@
     <name>solarvillage-poc</name>
 
     <modules>
+        <module>gov-services</module>
         <module>poc-model</module>
         <module>poc-kjar</module>
         <module>poc-service</module>

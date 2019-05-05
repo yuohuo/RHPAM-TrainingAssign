@@ -26,8 +26,6 @@ class App extends Component {
                         <div class="row justify-content-center">
                             <div class="card-deck">
                                 <ServerInfo/>
-                            </div>
-                            <div class="card-deck">
                                 <ProcessDefsInfo/>
                                 <ProcessInstancesInfo/>
                             </div>

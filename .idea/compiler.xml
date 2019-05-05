@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="electrical-service" />
         <module name="poc-kjar" />
         <module name="poc-model" />
         <module name="poc-service" />
+        <module name="service-data-model" />
+        <module name="structural-service" />
       </profile>
     </annotationProcessing>
   </component>
