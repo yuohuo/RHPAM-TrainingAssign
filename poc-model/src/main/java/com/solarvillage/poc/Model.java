@@ -1,4 +1,4 @@
-package com.solarvillage.model;
+package com.solarvillage.poc;
 
 
 public class Model {
