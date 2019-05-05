@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, {Component} from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import ServerInfo from "./ServerInfo";
+import ProcessDefsInfo from "./ProcessDefsInfo";
+import ProcessInstancesInfo from "./ProcessInstancesInfo";
+
+class App extends Component {
+
+    render() {
+        return (
+                <div className="App">
+                    <div class="jumbotron jumbotron-fluid" className="ReactTitleStyle">
+                        <img src={logo} className="App-logo" alt="logo"/>
+                        <p>
+                            <strong><h3>Welcome to Solar Village jBPM Business Application!</h3></strong>
+                        </p>
+                        <br/>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="card-deck">
+                                <ServerInfo/>
+                            </div>
+                            <div class="card-deck">
+                                <ProcessDefsInfo/>
+                                <ProcessInstancesInfo/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        );
+    }
 }
 
 export default App;
