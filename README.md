@@ -8,6 +8,6 @@ Solar Village POC is a home work assignment for advanced process development wit
 
 ***gov-services***: Government REST services simulator project. It provides RESTful CRUD APIs for permit applications.
 
-***poc-model***: POJO data model which is used by both of SolarPermitApp and SolarPermitService.
+***poc-model***: POJO data model which is used by both of business process and poc-service.
 
-***poc-service***: Front-end project of Solar Village POC, utilising React.JS to build
+***poc-service***: Front-end project of Solar Village POC, utilising React.JS to build user interface.
