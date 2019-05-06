@@ -24,7 +24,7 @@ if [ "$MVN_ARG_LINE" != "" ] ; then
 
     "$mvnBin" -v
     echo
-    projects=( "*-poc" "*-kjar" "poc-service")
+    projects=( "*-model" "*-kjar" "poc-service")
 
     for suffix in "${projects[@]}"; do
 

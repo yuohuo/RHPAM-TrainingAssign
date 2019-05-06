@@ -58,3 +58,4 @@ public class NewOrder implements Serializable {
 		this.nextHOAMeeting = nextHOAMeeting;
 	}
 }
+
