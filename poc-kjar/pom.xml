@@ -55,7 +55,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.solarvillage</groupId>
+      <groupId>com.solarvillage.poc</groupId>
       <artifactId>poc-model</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>

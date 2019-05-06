@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_PHomsE2tEemwi_9oTwpN-A" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="1.0" targetNamespace="http://www.omg.org/bpmn20">
-  <bpmn2:itemDefinition id="_newOrderItem" structureRef="com.solarvillage.model.NewOrder"/>
+  <bpmn2:itemDefinition id="_newOrderItem" structureRef="com.solarvillage.poc.NewOrder"/>
   <bpmn2:itemDefinition id="_e_permit_requestItem" structureRef="org.gov.permit.electricalservice.PermitRequest"/>
   <bpmn2:itemDefinition id="_s_permit_requestItem" structureRef="org.gov.permit.structuralservice.PermitRequest"/>
   <bpmn2:itemDefinition id="_e_permit_req_responseItem" structureRef="org.gov.permit.electricalservice.PermitRequestResponse"/>
@@ -24,7 +24,7 @@
   <bpmn2:itemDefinition id="__790A4D8E-0C9E-4B67-8307-24BAB503856D_OperationInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__790A4D8E-0C9E-4B67-8307-24BAB503856D_ParameterInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__790A4D8E-0C9E-4B67-8307-24BAB503856D_UrlInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__790A4D8E-0C9E-4B67-8307-24BAB503856D_newOrderInputXItem" structureRef="com.solarvillage.model.NewOrder"/>
+  <bpmn2:itemDefinition id="__790A4D8E-0C9E-4B67-8307-24BAB503856D_newOrderInputXItem" structureRef="com.solarvillage.poc.NewOrder"/>
   <bpmn2:itemDefinition id="__790A4D8E-0C9E-4B67-8307-24BAB503856D_ResultOutputXItem" structureRef="org.gov.permit.electricalservice.PermitRequestResponse"/>
   <bpmn2:itemDefinition id="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_TaskNameInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_InterfaceInputXItem" structureRef="String"/>
@@ -33,10 +33,10 @@
   <bpmn2:itemDefinition id="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_OperationInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_ParameterInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_UrlInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_newOrderInputXItem" structureRef="com.solarvillage.model.NewOrder"/>
+  <bpmn2:itemDefinition id="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_newOrderInputXItem" structureRef="com.solarvillage.poc.NewOrder"/>
   <bpmn2:itemDefinition id="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_ResultOutputXItem" structureRef="org.gov.permit.structuralservice.PermitRequestResponse"/>
   <bpmn2:itemDefinition id="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_TaskNameInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_newOrderInputXItem" structureRef="com.solarvillage.model.NewOrder"/>
+  <bpmn2:itemDefinition id="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_newOrderInputXItem" structureRef="com.solarvillage.poc.NewOrder"/>
   <bpmn2:itemDefinition id="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_SkippableInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_GroupIdInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_NotCompletedReassignInputXItem" structureRef="Object"/>
@@ -49,7 +49,7 @@
   <bpmn2:itemDefinition id="__E75ED110-7D47-4A37-BFC8-FD91A945C183_OperationInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__E75ED110-7D47-4A37-BFC8-FD91A945C183_ParameterInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__E75ED110-7D47-4A37-BFC8-FD91A945C183_UrlInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__E75ED110-7D47-4A37-BFC8-FD91A945C183_newOrderInputXItem" structureRef="com.solarvillage.model.NewOrder"/>
+  <bpmn2:itemDefinition id="__E75ED110-7D47-4A37-BFC8-FD91A945C183_newOrderInputXItem" structureRef="com.solarvillage.poc.NewOrder"/>
   <bpmn2:itemDefinition id="__E75ED110-7D47-4A37-BFC8-FD91A945C183_e_order_idInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__E75ED110-7D47-4A37-BFC8-FD91A945C183_s_order_idInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_TaskNameInputXItem" structureRef="String"/>
@@ -59,7 +59,7 @@
   <bpmn2:itemDefinition id="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_OperationInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_ParameterInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_UrlInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_newOrderInputXItem" structureRef="com.solarvillage.model.NewOrder"/>
+  <bpmn2:itemDefinition id="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_newOrderInputXItem" structureRef="com.solarvillage.poc.NewOrder"/>
   <bpmn2:itemDefinition id="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_e_order_idInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_ResultOutputXItem" structureRef="org.gov.permit.electricalservice.PermitStatusResponse"/>
   <bpmn2:itemDefinition id="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_TaskNameInputXItem" structureRef="String"/>
@@ -69,7 +69,7 @@
   <bpmn2:itemDefinition id="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_OperationInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_ParameterInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_UrlInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_newOrderInputXItem" structureRef="com.solarvillage.model.NewOrder"/>
+  <bpmn2:itemDefinition id="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_newOrderInputXItem" structureRef="com.solarvillage.poc.NewOrder"/>
   <bpmn2:itemDefinition id="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_s_order_idInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_e_order_idInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_TaskNameInputXItem" structureRef="String"/>
@@ -79,7 +79,7 @@
   <bpmn2:itemDefinition id="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_OperationInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_ParameterInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_UrlInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_newOrderInputXItem" structureRef="com.solarvillage.model.NewOrder"/>
+  <bpmn2:itemDefinition id="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_newOrderInputXItem" structureRef="com.solarvillage.poc.NewOrder"/>
   <bpmn2:itemDefinition id="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_s_order_idInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_ResultOutputXItem" structureRef="org.gov.permit.structuralservice.PermitStatusResponse"/>
   <bpmn2:process id="solar-village-poc.order-permitting" drools:packageName="com.myspace.solar_village_poc" drools:version="1.0" name="order-permitting" isExecutable="true">
@@ -169,7 +169,7 @@ kcontext.setVariable("e_order_id", e_permit_req_response.getId());
         <bpmn2:dataInput id="_790A4D8E-0C9E-4B67-8307-24BAB503856D_OperationInputX" drools:dtype="String" itemSubjectRef="__790A4D8E-0C9E-4B67-8307-24BAB503856D_OperationInputXItem" name="Operation"/>
         <bpmn2:dataInput id="_790A4D8E-0C9E-4B67-8307-24BAB503856D_ParameterInputX" drools:dtype="String" itemSubjectRef="__790A4D8E-0C9E-4B67-8307-24BAB503856D_ParameterInputXItem" name="Parameter"/>
         <bpmn2:dataInput id="_790A4D8E-0C9E-4B67-8307-24BAB503856D_UrlInputX" drools:dtype="String" itemSubjectRef="__790A4D8E-0C9E-4B67-8307-24BAB503856D_UrlInputXItem" name="Url"/>
-        <bpmn2:dataInput id="_790A4D8E-0C9E-4B67-8307-24BAB503856D_newOrderInputX" drools:dtype="com.solarvillage.model.NewOrder" itemSubjectRef="__790A4D8E-0C9E-4B67-8307-24BAB503856D_newOrderInputXItem" name="newOrder"/>
+        <bpmn2:dataInput id="_790A4D8E-0C9E-4B67-8307-24BAB503856D_newOrderInputX" drools:dtype="com.solarvillage.poc.NewOrder" itemSubjectRef="__790A4D8E-0C9E-4B67-8307-24BAB503856D_newOrderInputXItem" name="newOrder"/>
         <bpmn2:dataOutput id="_790A4D8E-0C9E-4B67-8307-24BAB503856D_ResultOutputX" drools:dtype="org.gov.permit.electricalservice.PermitRequestResponse" itemSubjectRef="__790A4D8E-0C9E-4B67-8307-24BAB503856D_ResultOutputXItem" name="Result"/>
         <bpmn2:inputSet id="_PHomtE2tEemwi_9oTwpN-A">
           <bpmn2:dataInputRefs>_790A4D8E-0C9E-4B67-8307-24BAB503856D_InterfaceInputX</bpmn2:dataInputRefs>
@@ -282,7 +282,7 @@ kcontext.setVariable("s_order_id", s_permit_req_response.getId());
         <bpmn2:dataInput id="_AD5F6C14-E244-41F3-8CFD-62984C343DDB_OperationInputX" drools:dtype="String" itemSubjectRef="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_OperationInputXItem" name="Operation"/>
         <bpmn2:dataInput id="_AD5F6C14-E244-41F3-8CFD-62984C343DDB_ParameterInputX" drools:dtype="String" itemSubjectRef="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_ParameterInputXItem" name="Parameter"/>
         <bpmn2:dataInput id="_AD5F6C14-E244-41F3-8CFD-62984C343DDB_UrlInputX" drools:dtype="String" itemSubjectRef="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_UrlInputXItem" name="Url"/>
-        <bpmn2:dataInput id="_AD5F6C14-E244-41F3-8CFD-62984C343DDB_newOrderInputX" drools:dtype="com.solarvillage.model.NewOrder" itemSubjectRef="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_newOrderInputXItem" name="newOrder"/>
+        <bpmn2:dataInput id="_AD5F6C14-E244-41F3-8CFD-62984C343DDB_newOrderInputX" drools:dtype="com.solarvillage.poc.NewOrder" itemSubjectRef="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_newOrderInputXItem" name="newOrder"/>
         <bpmn2:dataOutput id="_AD5F6C14-E244-41F3-8CFD-62984C343DDB_ResultOutputX" drools:dtype="org.gov.permit.structuralservice.PermitRequestResponse" itemSubjectRef="__AD5F6C14-E244-41F3-8CFD-62984C343DDB_ResultOutputXItem" name="Result"/>
         <bpmn2:inputSet id="_PHom0k2tEemwi_9oTwpN-A">
           <bpmn2:dataInputRefs>_AD5F6C14-E244-41F3-8CFD-62984C343DDB_InterfaceInputX</bpmn2:dataInputRefs>
@@ -386,7 +386,7 @@ kcontext.setVariable("hoaExpire", dateText);
       <bpmn2:outgoing>_36E93574-6A90-4C4C-9E40-E3BB31213B00</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_PHom702tEemwi_9oTwpN-A">
         <bpmn2:dataInput id="_30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_TaskNameInputX" drools:dtype="String" itemSubjectRef="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_TaskNameInputXItem" name="TaskName"/>
-        <bpmn2:dataInput id="_30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_newOrderInputX" drools:dtype="com.solarvillage.model.NewOrder" itemSubjectRef="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_newOrderInputXItem" name="newOrder"/>
+        <bpmn2:dataInput id="_30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_newOrderInputX" drools:dtype="com.solarvillage.poc.NewOrder" itemSubjectRef="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_newOrderInputXItem" name="newOrder"/>
         <bpmn2:dataInput id="_30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_SkippableInputX" drools:dtype="Object" itemSubjectRef="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataInput id="_30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_GroupIdInputX" drools:dtype="Object" itemSubjectRef="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_GroupIdInputXItem" name="GroupId"/>
         <bpmn2:dataInput id="_30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_NotCompletedReassignInputX" drools:dtype="Object" itemSubjectRef="__30BCCAF7-6C97-4C96-8E1D-D6E8A55706F4_NotCompletedReassignInputXItem" name="NotCompletedReassign"/>
@@ -488,7 +488,7 @@ kcontext.setVariable("s_permit_recind", _request);
         <bpmn2:dataInput id="_E75ED110-7D47-4A37-BFC8-FD91A945C183_OperationInputX" drools:dtype="String" itemSubjectRef="__E75ED110-7D47-4A37-BFC8-FD91A945C183_OperationInputXItem" name="Operation"/>
         <bpmn2:dataInput id="_E75ED110-7D47-4A37-BFC8-FD91A945C183_ParameterInputX" drools:dtype="String" itemSubjectRef="__E75ED110-7D47-4A37-BFC8-FD91A945C183_ParameterInputXItem" name="Parameter"/>
         <bpmn2:dataInput id="_E75ED110-7D47-4A37-BFC8-FD91A945C183_UrlInputX" drools:dtype="String" itemSubjectRef="__E75ED110-7D47-4A37-BFC8-FD91A945C183_UrlInputXItem" name="Url"/>
-        <bpmn2:dataInput id="_E75ED110-7D47-4A37-BFC8-FD91A945C183_newOrderInputX" drools:dtype="com.solarvillage.model.NewOrder" itemSubjectRef="__E75ED110-7D47-4A37-BFC8-FD91A945C183_newOrderInputXItem" name="newOrder"/>
+        <bpmn2:dataInput id="_E75ED110-7D47-4A37-BFC8-FD91A945C183_newOrderInputX" drools:dtype="com.solarvillage.poc.NewOrder" itemSubjectRef="__E75ED110-7D47-4A37-BFC8-FD91A945C183_newOrderInputXItem" name="newOrder"/>
         <bpmn2:dataInput id="_E75ED110-7D47-4A37-BFC8-FD91A945C183_e_order_idInputX" drools:dtype="String" itemSubjectRef="__E75ED110-7D47-4A37-BFC8-FD91A945C183_e_order_idInputXItem" name="e_order_id"/>
         <bpmn2:dataInput id="_E75ED110-7D47-4A37-BFC8-FD91A945C183_s_order_idInputX" drools:dtype="String" itemSubjectRef="__E75ED110-7D47-4A37-BFC8-FD91A945C183_s_order_idInputXItem" name="s_order_id"/>
         <bpmn2:inputSet id="_PHonCU2tEemwi_9oTwpN-A">
@@ -663,7 +663,7 @@ System.out.println("Set e_permit_status:" + e_permit_status_response.getStatus()
         <bpmn2:dataInput id="_AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_OperationInputX" drools:dtype="String" itemSubjectRef="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_OperationInputXItem" name="Operation"/>
         <bpmn2:dataInput id="_AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_ParameterInputX" drools:dtype="String" itemSubjectRef="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_ParameterInputXItem" name="Parameter"/>
         <bpmn2:dataInput id="_AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_UrlInputX" drools:dtype="String" itemSubjectRef="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_UrlInputXItem" name="Url"/>
-        <bpmn2:dataInput id="_AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_newOrderInputX" drools:dtype="com.solarvillage.model.NewOrder" itemSubjectRef="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_newOrderInputXItem" name="newOrder"/>
+        <bpmn2:dataInput id="_AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_newOrderInputX" drools:dtype="com.solarvillage.poc.NewOrder" itemSubjectRef="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_newOrderInputXItem" name="newOrder"/>
         <bpmn2:dataInput id="_AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_e_order_idInputX" drools:dtype="String" itemSubjectRef="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_e_order_idInputXItem" name="e_order_id"/>
         <bpmn2:dataOutput id="_AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_ResultOutputX" drools:dtype="org.gov.permit.electricalservice.PermitStatusResponse" itemSubjectRef="__AE6AF0AE-FC53-4A78-8B97-B67A8C8CAE08_ResultOutputXItem" name="Result"/>
         <bpmn2:inputSet id="_PHonL02tEemwi_9oTwpN-A">
@@ -780,7 +780,7 @@ kcontext.setVariable("e_permit_recind", _request);
         <bpmn2:dataInput id="_9701BD5B-80FA-40D9-B6BF-504B93E6AF84_OperationInputX" drools:dtype="String" itemSubjectRef="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_OperationInputXItem" name="Operation"/>
         <bpmn2:dataInput id="_9701BD5B-80FA-40D9-B6BF-504B93E6AF84_ParameterInputX" drools:dtype="String" itemSubjectRef="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_ParameterInputXItem" name="Parameter"/>
         <bpmn2:dataInput id="_9701BD5B-80FA-40D9-B6BF-504B93E6AF84_UrlInputX" drools:dtype="String" itemSubjectRef="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_UrlInputXItem" name="Url"/>
-        <bpmn2:dataInput id="_9701BD5B-80FA-40D9-B6BF-504B93E6AF84_newOrderInputX" drools:dtype="com.solarvillage.model.NewOrder" itemSubjectRef="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_newOrderInputXItem" name="newOrder"/>
+        <bpmn2:dataInput id="_9701BD5B-80FA-40D9-B6BF-504B93E6AF84_newOrderInputX" drools:dtype="com.solarvillage.poc.NewOrder" itemSubjectRef="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_newOrderInputXItem" name="newOrder"/>
         <bpmn2:dataInput id="_9701BD5B-80FA-40D9-B6BF-504B93E6AF84_s_order_idInputX" drools:dtype="String" itemSubjectRef="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_s_order_idInputXItem" name="s_order_id"/>
         <bpmn2:dataInput id="_9701BD5B-80FA-40D9-B6BF-504B93E6AF84_e_order_idInputX" drools:dtype="String" itemSubjectRef="__9701BD5B-80FA-40D9-B6BF-504B93E6AF84_e_order_idInputXItem" name="e_order_id"/>
         <bpmn2:inputSet id="_PHonUE2tEemwi_9oTwpN-A">
@@ -934,7 +934,7 @@ System.out.println("Set s_permit_status:" + s_permit_status_response.getStatus()
         <bpmn2:dataInput id="_1967BBC8-D077-4BF3-AAB8-323BCD0AE155_OperationInputX" drools:dtype="String" itemSubjectRef="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_OperationInputXItem" name="Operation"/>
         <bpmn2:dataInput id="_1967BBC8-D077-4BF3-AAB8-323BCD0AE155_ParameterInputX" drools:dtype="String" itemSubjectRef="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_ParameterInputXItem" name="Parameter"/>
         <bpmn2:dataInput id="_1967BBC8-D077-4BF3-AAB8-323BCD0AE155_UrlInputX" drools:dtype="String" itemSubjectRef="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_UrlInputXItem" name="Url"/>
-        <bpmn2:dataInput id="_1967BBC8-D077-4BF3-AAB8-323BCD0AE155_newOrderInputX" drools:dtype="com.solarvillage.model.NewOrder" itemSubjectRef="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_newOrderInputXItem" name="newOrder"/>
+        <bpmn2:dataInput id="_1967BBC8-D077-4BF3-AAB8-323BCD0AE155_newOrderInputX" drools:dtype="com.solarvillage.poc.NewOrder" itemSubjectRef="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_newOrderInputXItem" name="newOrder"/>
         <bpmn2:dataInput id="_1967BBC8-D077-4BF3-AAB8-323BCD0AE155_s_order_idInputX" drools:dtype="String" itemSubjectRef="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_s_order_idInputXItem" name="s_order_id"/>
         <bpmn2:dataOutput id="_1967BBC8-D077-4BF3-AAB8-323BCD0AE155_ResultOutputX" drools:dtype="org.gov.permit.structuralservice.PermitStatusResponse" itemSubjectRef="__1967BBC8-D077-4BF3-AAB8-323BCD0AE155_ResultOutputXItem" name="Result"/>
         <bpmn2:inputSet id="_PHondE2tEemwi_9oTwpN-A">
